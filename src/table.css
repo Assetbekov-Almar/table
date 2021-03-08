@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500&display=swap');
+
+.search {
+	margin: 10px 0;
+}
+
+.search .search-bar {
+	padding: 2px 4px;
+	font-family: 'Noto Sans SC', sans-serif;
+	font-size: 12px;
+}
+
+table {
+	font-family: 'Noto Sans SC', sans-serif;
+	border-collapse: collapse;
+	font-weight: 400;
+	width: 100%;
+	font-size: 15px;
+}
+
+table td, table th {
+	border: 1px solid #ddd;
+	padding: 6px;
+}
+
+table tr:hover {
+	background-color: #ddd;
+}
+
+table th {
+	padding: 10px 0;
+	text-align: center;
+	background-color: rgb(89, 89, 223);
+	color: white;
+	letter-spacing: 1.2px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+table th:hover {
+	background-color: rgb(75, 75, 211);
+}
+
+.pagination {
+	margin: 10px 0;
+	text-align: center;
+}
+
+.pagination button {
+	width: 30px;
+	height: 20px;
+}
+
+.pagination .pages {
+	margin: 0 10px;
+}
